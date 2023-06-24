@@ -29,9 +29,6 @@ Experiments are conducted to evaluate the performance of each combination of fea
 
 Based on the experiments, it was found that Logistic Regression with the Bag of Words approach and SVM with TF-IDF achieved the best classification results for the Vietnamese news data.
 
-## Run Code
-
-
 ### Prerequisites
 
 - Python [version]
@@ -63,6 +60,19 @@ Based on the experiments, it was found that Logistic Regression with the Bag of 
 
 - [Provide example usage or code snippets]
 
+## Web Demo
+1. Open terminal and run this code snippet:
+   ```zsh
+   cd ./web_demo
+   ```
+
+2. Run the demo webiste:
+   ```
+   streamlit run web.py
+   ```
+3. Usage:
+   [Screen Capture]
+   
 ## Contributing
 
 Contributions to the project are welcome. If you would like to contribute, please follow the guidelines outlined in [CONTRIBUTING.md].
